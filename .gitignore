@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# LibreOffice/Word lock files
+.~lock.*
+
+# Node
+node_modules/
+dist/
+release/
+
+# Sensitive credentials
+gmail_credentials.json
+gmail_kevin_token.json
+*.token.json
+*_token.json
+
+# Claude internal
+.claude/
+
+# Env files
+.env
+.env.local
